@@ -14,11 +14,48 @@ body {
 
 /*font-family: 'Raleway', sans-serif; */
 
+.link {
+    text-decoration: none;}
+
+.list {
+    list-style: none;}
 /*header*/
-.page-header
-.logo-header
-.header-list
-.header-item
-.header-link
-.header-contacts-list
-.header-contacts-item
+.header-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color
+
+
+
+}
+.header-link {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.header-contacts-item {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--secondary-text-color)
+}
+
+.header-contacts-item:hover,
+.header-contacts-item:focus {
+    color: var(--accent-color);
+}
+
