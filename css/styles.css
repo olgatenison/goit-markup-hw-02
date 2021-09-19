@@ -6,7 +6,6 @@
     --accent-color: #2196F3;
     --background-accent-color: #F5F4FA;
 
-
 }
 
 
@@ -16,6 +15,7 @@ body {
     letter-spacing: 0.03em;
     font-weight: 400;
     font-style: normal;
+    font-size: 14px;
 }
     
 
@@ -55,7 +55,6 @@ body {
 }
 
 .header-link {
-    font-size: 14px;
     font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.02em;
@@ -67,7 +66,6 @@ body {
 }
 
 .header-contacts-link {
-    font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -102,13 +100,11 @@ body {
 /*--------------преимущества-----------*/
 .advantage-theme{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
 }
 .advantage-text{
-    font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-text-color);
 }
@@ -159,7 +155,8 @@ body {
 }
 
 .portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-btn:focus,
+.portfolio-currunt-btn {
     color:#FFFFFF;
     background-color: var(--accent-color);
 }
@@ -192,10 +189,14 @@ body {
 }
 .footer-adress-link{
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF99;
 }
 .footer-adress-main{
     color: #FFFFFF;
+}
+
+.footer-adress-link:hover,
+.footer-adress-link:focus {
+    color: var(--accent-color);
 }
