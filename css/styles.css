@@ -5,12 +5,14 @@
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
     --background-accent-color: #F5F4FA;
-
+    --background-secondary-color: #2F303A;
+    --background-main-color: #FFFFFF;
+    --btm-primary-color: #F5F4FA;
 }
 
 
 body {
-    background-color: #FFFFFF;
+    background-color: var(--background-main-color);
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     font-weight: 400;
@@ -81,7 +83,7 @@ body {
 
 /*------------hero-------------*/
 .hero{
-    background-color: #2F303A;
+    background-color: var(--background-secondary-color);
     ;
 }
 .hero-title {
@@ -150,7 +152,7 @@ body {
  
 .portfolio-btn{
     font-weight: 500;
-    background-color: #F5F4FA;
+    background-color: var(--btm-primary-color);
     line-height: 1.62;
     
 }
@@ -176,7 +178,7 @@ body {
 }
 /*--------------footer-----------*/
 .footer {
-    background-color: #2F303A;
+    background-color: var(--background-secondary-color);
 }
 .footer-logo{
     font-family: Raleway;
@@ -186,7 +188,7 @@ body {
     color: var(--accent-color)
 }
 .footer-logo-text{
-    color: #FFFFFF;
+    color: var(--primary-title-color);
 }
 .footer-adress-link{
     font-style: normal;
@@ -194,7 +196,7 @@ body {
     color: #FFFFFF99;
 }
 .footer-adress-main{
-    color: #FFFFFF;
+    color: var(--primary-title-color);
 }
 
 .footer-adress-link:hover,
