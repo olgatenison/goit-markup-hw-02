@@ -29,12 +29,13 @@ body {
     list-style: none;}
 
 .btn {
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    border: 0;
+    border-radius: 4px;
 }
 
 /*--------header----------------*/
@@ -95,6 +96,7 @@ body {
 
 .hero-btn { 
     color: #FFFFFF;
+    font-weight: 700;
     background-color: var(--accent-color);
 }
 /*--------------преимущества-----------*/
@@ -148,6 +150,7 @@ body {
     font-weight: 500;
     line-height: 1.62;
     color: var(--primary-text-color);
+    font-weight: 500;
     
 }
 .portfolio-btn{
@@ -159,6 +162,7 @@ body {
 .portfolio-currunt-btn {
     color:#FFFFFF;
     background-color: var(--accent-color);
+   
 }
 .portfolio-name{
     font-weight: 700;
