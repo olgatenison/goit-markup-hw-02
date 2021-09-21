@@ -146,15 +146,14 @@ body {
 }
 
 /*--------------портфолио-----------*/
-.portfolio-options-item {
-    font-weight: 500;
-    line-height: 1.62;
-    color: var(--primary-text-color);
-    font-weight: 500;
+
+    
     
 }
 .portfolio-btn{
     background-color: #F5F4FA;
+    line-height: 1.62;
+    color:#F5F4FA;
 }
 
 .portfolio-btn:hover,
